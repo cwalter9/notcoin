@@ -1,0 +1,34 @@
+src/*.exe
+src/notcoin
+src/notcoind
+src/test_notcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.notcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+notcoin-qt
+Notcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+notcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
